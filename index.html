@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Memory Game">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="shortcut icon" href="./Pictuees/favicon.jfif" type="image/x-icon">
+</head>
+<body>
+    <div class="starting">
+        <div>
+            <h2>Welcome</h2>
+            <h4>Please Fill the information Below</h4>
+            <input type="text" maxlength="12">
+            <label>Username</label>
+            <button>Save and Play</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <span class="spanA">Hello :</span>
+            <span class="spanB">00:00</span>
+            <span class="spanC">Fails : <span class="rong">0</span></span>
+        </div>
+        <div class="cards">
+            <div class="block">
+                <div data-tech="express">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/20220224_224638.png" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="nodejs">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/20220224_224703.png" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="github">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/20220224_224811.png" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="mongoDB">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/20220224_225052.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="sass">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/4990655.png" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="js">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/js.png" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="jest">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/jest-logo.png" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="reactjs">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/React-icon.svg.png" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="express">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/20220224_224638.png" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="nodejs">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/20220224_224703.png" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="github">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/20220224_224811.png" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="mongoDB">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/20220224_225052.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="sass">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/4990655.png" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="js">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/js.png" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="jest">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/jest-logo.png" alt=""></div>
+                </div>
+            </div>
+            <div class="block">
+                <div data-tech="reactjs">
+                    <div class="face">?</div>
+                    <div class="back"><img src="./Pictuees/React-icon.svg.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio class="failAudio" src="./game sounds/negative beeps.mp3"></audio>
+    <audio class="SuccessAudio" src="./game sounds/success fanfare trumpets.mp3"></audio>
+    <audio class="clickAudio" src="./game sounds/martial arts punch.wav"></audio>
+    <audio class="StartAudio" src="./game sounds/introsound.mp3"></audio>
+    <audio class="clockAudio" src="./game sounds/countdown.wav"></audio>
+    <audio class="gameOverAudio" src="./game sounds/endofgame.mp3"></audio>
+<script src="./Js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,3267 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+.starting2 {
+    width: 1024px;
+    height: 453px;
+    position: absolute;
+    top: 0;
+    background-color: #000000d6;
+    z-index: 5;
+    transition:all .6s;
+    -webkit-transition:all .6s;
+    -moz-transition:all .6s;
+    -ms-transition:all .6s;
+    -o-transition:all .6s;
+}
+.starting2 div {
+    position: absolute;
+    width: 26%;
+    height: 41%;
+    top: 100%;
+    left: 50%;
+    border-radius: 4px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border: 3px solid #cd6c05;
+    box-shadow: 0 0 11px 2px black;
+    background-color: #2918bb;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transition:all .6s;
+    -webkit-transition:all .6s;
+    -moz-transition:all .6s;
+    -ms-transition:all .6s;
+    -o-transition:all .6s;
+}
+
+
+.starting2 div button {
+    position: relative;
+    font-weight: bold;
+    width: 56%;
+    left: 2%;
+    background-color: orange;
+    box-shadow: 0px 0px 3px 1px black;
+    height: 14%;
+    font-size: 12px;
+    line-height: 2px;
+    top: 27%;
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+
+
+.starting2 div h4 {
+    position: relative;
+    background-color: #ffb000fa;
+    padding: 7px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 4px 0px #000000 inset, -3px -3px 3px 0 #000000 inset;
+    width: 80%;
+    top: 23%;
+    left: 11%;
+    font-size: 14px;
+    color: #b20bff;
+    text-shadow: -1px -1px black;
+}
+
+.starting2 div h2 {
+    position: relative;
+    background-color: #0dffd3;
+    padding: 3px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 4px 0px #000000 inset, -3px -3px 3px 0 #000000 inset;
+    top: 18%;
+    width: 80%;
+    left: 11%;
+    color: #de0000;
+    text-shadow: -2px -2px black;
+}
+
+
+label.mainLabel {
+    position: absolute;
+    top: 12px;
+    left: 296px;
+    font-size: 16px;
+    text-shadow: -1px -1px black;
+    color: #80ff00;
+    font-weight: bold;
+    z-index: 5;
+}
+
+
+.starting {
+    width: 1024px;
+    height: 453px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    background-color: #141313d6;
+    z-index: 3;
+    transition:all .4s;
+    -webkit-transition:all .4s;
+    -moz-transition:all .4s;
+    -ms-transition:all .4s;
+    -o-transition:all .4s;
+}
+
+.starting div {
+    position: absolute;
+    width: 26%;
+    border: 3px solid black;
+    height: 41%;
+    top: 100%;
+    left: 52%;
+    border-radius: 4px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    box-shadow: 0 0 11px 2px black;
+    background-color: #6e0a00;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transition:all .6s;
+    -webkit-transition:all .6s;
+    -moz-transition:all .6s;
+    -ms-transition:all .6s;
+    -o-transition:all .6s;
+}
+
+.starting div label {
+    top: 65%;
+    font-weight: bold;
+    color: grey;
+    font-size: 14px;
+    z-index: 4;
+    left: 8%;
+    position: absolute;
+    transition: all .6s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: text;
+}
+
+.Slowhide {
+    opacity: 0;
+}
+.hide {
+    display: none;
+}
+.starting div.slowDown {
+    top: 100%;
+}
+.starting2 div.slowUp {
+    top:50%;
+}
+.starting div.slowUp {
+    top:50%;
+}
+.starting div label.up {
+    top: -121px;
+    font-size: 16px;
+    text-shadow: -2px -2px black;
+    left: -31%;
+    color: #00ff25;
+}
+
+.starting div h2 {
+    position: relative;
+    top: 17%;
+    left: 0%;
+    color: #00ff6b;
+    text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+}
+
+.starting div h4 {
+    position: relative;
+    top: 24%;
+    left: 0%;
+    font-size: 13px;
+    color: #ff9e00;
+    text-shadow: -3px -2px black, 1px -2px black, -2px -1px black, -2px 2px black;
+} 
+.starting div input {
+    position: relative;
+    width: 62%;
+    height: 19%;
+    padding: 3px 3px 3px 7px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    top: 28%;
+    box-shadow: 0 0 4px 1px black;
+    left: 0%;
+    font-size: 36px;
+    border-radius: 3px;
+}
+
+.starting input:focus {
+    outline: 1px solid orange;
+}
+.starting div button {
+    position: relative;
+    font-weight: bold;
+    width: 19%;
+    background-color: orange;
+    box-shadow: 0px 0px 3px 1px black;
+    height: 14%;
+    font-size: 8px;
+    top: 53px;
+    left: 0%;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.container {
+    background-color: #cea42d;
+    width: 100%;
+    height: 453px;
+    overflow: hidden;
+    position: relative;
+    padding: 0 6% 0 21%;
+    /* text-align: center; */
+}
+.header {
+    width: 80%;
+    position: relative;
+    height: 10%;
+    color: orange;
+    background-color: #514e76;
+    padding: 11px;
+    font-size: 17px;
+    overflow-x: hidden;
+    text-shadow: -1px -1px black;
+    box-shadow: 0px 0px 5px 2px black;
+    font-weight: 550;
+}
+.header .spanA {
+    position: absolute;
+    left: 17px;
+}
+
+.header .spanA span {
+    color: red;
+}
+.header .spanB {
+    position: absolute;
+    left: 275px;
+    top: 6px;
+    text-shadow: -4px -1px black, -1px 2px black;
+    font-size: 25px;
+    color: #b4924f;
+}
+.header .spanC {
+    left: 84%;
+    position: absolute;
+    text-shadow: -1px -1px black;
+}
+
+.header .spanC .rong {
+    color: red;
+    text-shadow: -1px -1px black;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    background-color: #918d9a;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 90%;
+    padding: 2% 11% 2% 15%;
+    box-shadow: 0 0 11px 1px #000000;
+}
+.cards .block {
+    position: relative;
+    border: none;
+    margin-right: 3px;
+    padding: 22px;
+    flex-basis: 88px;
+    flex-grow: 0;
+    height: 23%;
+    margin: 0 7px 0 0;
+    overflow: hidden;
+    box-shadow: 0px 0px 11px 2px black;
+    padding: 0px;
+}
+.cards .block div {
+    position: absolute;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    width: 100%;
+    border: 1.4px solid #ffc100;
+    height: 100%;
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+}
+.cards .block div.rotate {
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+    -o-transform:rotateY(180deg);
+}
+.cards .block div.matched {
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+    -o-transform:rotateY(180deg);
+    pointer-events: none;
+}
+.cards .block div .face {
+    width: 100%;
+    height: 100%;
+    color: white;
+    line-height: 85px;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: 0s;
+    font-size: 49px;
+    background-color: #6e00ff;
+}
+.cards .block div .back {
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #de0000;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.cards .block div .back img {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+@media (min-height:480px) {
+    .starting2 {
+        width: 360px;
+        height: 640px;
+    }
+    .starting2 div {
+        width: 91%;
+        height: 32%;
+        left: 50%;
+    }
+    
+    
+    .starting2 div button {
+        position: relative;
+        font-weight: bold;
+        width: 56%;
+        left: 2%;
+        background-color: orange;
+        box-shadow: 0px 0px 3px 1px black;
+        height: 14%;
+        font-size: 13px;
+        line-height: 2px;
+        top: 27%;
+        cursor: pointer;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+    
+    .starting2 div h4 {
+        top: 22%;
+        left: 11%;
+        font-size: 17px;
+    }
+    
+    .starting2 div h2 {
+        top: 17%;
+        font-size: 37px;
+    }
+    
+    
+    label.mainLabel {
+        z-index: 5;
+        top: 30px;
+        font-size: 26px;
+        left: 124px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        color: #00ff25;
+    }
+    
+    
+    .starting {
+        width: 362px;
+        height: 654px;
+    }
+    
+    .starting div {
+        width: 91%;
+        height: 32%;
+        left: 50%;
+    }
+    
+    .starting div label {
+        top: 68%;
+        font-size:19px
+    }
+    
+    .starting div label.up {
+        top: -523px;
+        font-size: 26px;
+        left: 104px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        color: #00ff25;
+    }
+    
+    .starting div h2 {
+        top: 17%;
+        font-size: 37px;
+    }
+    
+    .starting div h4 {
+        top: 23%;
+        left: 0%;
+        font-size: 18px;
+    }
+    
+    .starting div input {
+        top: 34%;
+        left: -2%;
+        height: 14%;
+        font-size: 19px;
+    }
+
+    .starting div button {
+    top: 58px;
+    left: 8px;
+    color: black;
+    border: none;
+    width: 18%;
+    }
+    .container {
+        padding: 0 0% 0 0%;
+        width: 362px;
+        height: 642px;
+    }
+    .header {
+        width: 100%;
+        height: 22%;
+        padding: 19px;
+        background-color: #2700ff;
+        font-size: 17px;
+        border: 4px solid black;
+        text-shadow: -1px -1px black;
+        font-weight: 550;
+        overflow: visible;
+        box-shadow: 2px 2px 10px 0 black;
+        position: relative;
+    }
+    .header .spanA {
+        font-size: 26px;
+        padding: 3%;
+        border-radius: 5px;
+        background-color: #9100ff;
+        width: 93%;
+        box-shadow: 0 0 4px 1px black inset;
+        border: 1px solid;
+        left: 14px;
+        top: 11%;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+    }
+    
+    .header .spanA span {
+        color: red;
+    }
+    .header .spanB {
+        top: 58%;
+        left: 72%;
+        border-radius: 5px;
+        width: 25%;
+        box-shadow: 0 0 4px 1px black inset;
+        padding: 5px;
+        border: 1px solid;
+        background-color: #0095ff;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        font-size: 27px;
+        color: #ff0000;
+        z-index: 2;
+        position: absolute;
+    }
+    .header .spanC {
+        left: 4%;
+        background-color: #0072ff;
+        width: 65%;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 0 4px 1px black inset;
+        padding: 5px;
+        border: 1px solid;
+        top: 58%;
+        font-size: 27px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+    }
+    
+    .header .spanC .rong {
+    color: #cd0000;
+    font-size: 27px;
+    text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+    }
+    .cards {
+        z-index: 3;
+        display: flex;
+        border: 2px solid black;
+        width: 100%;
+        height: 80%;
+        background-color: #351eb6;
+        padding: 5% 1% 7% 2%;
+        box-shadow: 0 0 11px 1px #000000;
+    }
+    .cards .block {
+        flex-basis: 78px;
+        flex-grow: 0;
+        height: 19%;
+        margin: 0px 6px 0 2px;
+        overflow: hidden;
+        box-shadow: 0px 0px 11px 2px black;
+        padding: 0px;
+    }
+    .cards .block div {
+        position: absolute;
+        cursor: pointer;
+        transform-style: preserve-3d;
+        width: 100%;
+        border: 1.4px solid #ffc100;
+        height: 100%;
+        transition: all .6s;
+        -webkit-transition: all .6s;
+        -moz-transition: all .6s;
+        -ms-transition: all .6s;
+        -o-transition: all .6s;
+    }
+    .cards .block div.rotate {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+    }
+    .cards .block div.matched {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+        pointer-events: none;
+    }
+    .cards .block div .face {
+        width: 100%;
+        height: 100%;
+        color: #fffc00;
+        background-color: #2700ff;
+    }
+    .cards .block div .back {
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-color: #de0000;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+    }
+    
+    .cards .block div .back img {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+}
+@media (min-width: 360px) and (min-height:740px) {
+    .starting2 {
+        width: 360px;
+        height: 740px;
+    }
+    .starting2 div {
+        width: 91%;
+        height: 32%;
+        left: 50%;
+    }
+    
+    
+    .starting2 div button {
+        position: relative;
+        font-weight: bold;
+        width: 56%;
+        left: 2%;
+        background-color: orange;
+        box-shadow: 0px 0px 3px 1px black;
+        height: 14%;
+        font-size: 16px;
+        line-height: 2px;
+        top: 29%;
+        cursor: pointer;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+    
+    .starting2 div h4 {
+        top: 23%;
+        left: 11%;
+        font-size: 17px;
+    }
+    
+    .starting2 div h2 {
+        top: 17%;
+        font-size: 37px;
+    }
+    
+    
+    label.mainLabel {
+        z-index: 5;
+        top: 32px;
+        font-size: 26px;
+        left: 124px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        color: #00ff25;
+    }
+    
+    
+    .starting {
+        width: 360px;
+        height: 742px;
+    }
+    
+    .starting div {
+        width: 91%;
+        height: 32%;
+        left: 50%;
+    }
+    
+    .starting div label {
+        top: 64%;
+    }
+    
+    .starting div label.up {
+        top: -591px;
+        font-size: 26px;
+        left: 104px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        color: #00ff25;
+    }
+    
+    .starting div h2 {
+        top: 17%;
+        font-size: 37px;
+    }
+    
+    .starting div h4 {
+        top: 22%;
+        left: 0%;
+        font-size: 17px;
+    }
+    
+    .starting div button {
+        top: 70px;
+    }
+    .container {
+        height: 742px;
+        padding: 0 0% 0 0%;
+    }
+    .header {
+        width: 100%;
+        height: 22%;
+        padding: 19px;
+        background-color: #2700ff;
+        font-size: 17px;
+        border: 4px solid black;
+        text-shadow: -1px -1px black;
+        font-weight: 550;
+        overflow: visible;
+        box-shadow: 2px 2px 10px 0 black;
+        position: relative;
+    }
+    .header .spanA {
+        font-size: 26px;
+        padding: 3%;
+        border-radius: 5px;
+        background-color: #9100ff;
+        width: 93%;
+        box-shadow: 0 0 4px 1px black inset;
+        border: 1px solid;
+        left: 14px;
+        top: 11%;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+    }
+    
+    .header .spanA span {
+        color: red;
+    }
+    .header .spanB {
+        top: 58%;
+        left: 72%;
+        border-radius: 5px;
+        width: 25%;
+        box-shadow: 0 0 4px 1px black inset;
+        padding: 5px;
+        border: 1px solid;
+        background-color: #0095ff;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        font-size: 27px;
+        color: #ff0000;
+        z-index: 2;
+        position: absolute;
+    }
+    .header .spanC {
+        left: 4%;
+        background-color: #0072ff;
+        width: 65%;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 0 4px 1px black inset;
+        padding: 5px;
+        border: 1px solid;
+        top: 58%;
+        font-size: 27px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+    }
+    
+    .header .spanC .rong {
+    color: #cd0000;
+    font-size: 27px;
+    text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+    }
+    .cards {
+        z-index: 3;
+        display: flex;
+        border: 2px solid black;
+        width: 100%;
+        height: 80%;
+        background-color: #351eb6;
+        padding: 7% 1% 7% 2%;
+        box-shadow: 0 0 11px 1px #000000;
+    }
+    .cards .block {
+        flex-basis: 78px;
+        flex-grow: 0;
+        height: 17%;
+        margin: 0px 6px 0 2px;
+        overflow: hidden;
+        box-shadow: 0px 0px 11px 2px black;
+        padding: 0px;
+    }
+    .cards .block div {
+        position: absolute;
+        cursor: pointer;
+        transform-style: preserve-3d;
+        width: 100%;
+        border: 1.4px solid #ffc100;
+        height: 100%;
+        transition: all .6s;
+        -webkit-transition: all .6s;
+        -moz-transition: all .6s;
+        -ms-transition: all .6s;
+        -o-transition: all .6s;
+    }
+    .cards .block div.rotate {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+    }
+    .cards .block div.matched {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+        pointer-events: none;
+    }
+    .cards .block div .face {
+        width: 100%;
+        height: 100%;
+        color: #fffc00;
+        background-color: #2700ff;
+    }
+    .cards .block div .back {
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-color: #de0000;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+    }
+    
+    .cards .block div .back img {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+}
+@media (min-width: 375px) {
+    .starting2 {
+        width: 375px;
+        height: 667px;
+    }
+    .starting2 div {
+        width: 91%;
+        height: 32%;
+        left: 50%;
+    }
+    
+    
+    .starting2 div button {
+        position: relative;
+        font-weight: bold;
+        width: 56%;
+        left: 2%;
+        background-color: orange;
+        box-shadow: 0px 0px 3px 1px black;
+        height: 14%;
+        font-size: 14px;
+        line-height: 2px;
+        top: 27%;
+        cursor: pointer;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+    
+    .starting2 div h4 {
+        top: 22%;
+        left: 11%;
+        font-size: 17px;
+    }
+    
+    .starting2 div h2 {
+        top: 17%;
+        font-size: 37px;
+    }
+    
+    
+    label.mainLabel {
+        z-index: 5;
+        top: 31px;
+        font-size: 26px;
+        left: 124px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        color: #00ff25;
+    }
+    
+    
+    .starting {
+        width: 377px;
+        height: 671px;
+    }
+    
+    .starting div {
+        width: 91%;
+        height: 32%;
+        left: 50%;
+    }
+    
+    .starting div label {
+        top: 68%;
+        font-size: 19px;
+    }
+    
+    .starting div label.up {
+        top: -534px;
+        font-size: 26px;
+        left: 105px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        color: #00ff25;
+    }
+    
+    .starting div h2 {
+        top: 17%;
+        font-size: 37px;
+    }
+    
+    .starting div h4 {
+        top: 23%;
+        left: 0%;
+        font-size: 18px;
+    }
+    .starting div input {
+    height: 14%;
+    top: 35%;
+    font-size: 18px;
+    left: -9px;
+    }
+    .starting div button {
+        top: 63px;
+        left: 8px;
+        color: black;
+        border: none;
+        width: 18%;
+    }
+    .container {
+        padding: 0 0% 0 0%;
+        width: 377px;
+        height: 671px;
+    }
+    .header {
+        width: 100%;
+        height: 22%;
+        padding: 19px;
+        background-color: #2700ff;
+        font-size: 17px;
+        border: 4px solid black;
+        text-shadow: -1px -1px black;
+        font-weight: 550;
+        overflow: visible;
+        box-shadow: 2px 2px 10px 0 black;
+        position: relative;
+    }
+    .header .spanA {
+        font-size: 26px;
+        padding: 3%;
+        border-radius: 5px;
+        background-color: #9100ff;
+        width: 93%;
+        box-shadow: 0 0 4px 1px black inset;
+        border: 1px solid;
+        left: 14px;
+        top: 11%;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+    }
+    
+    .header .spanA span {
+        color: red;
+    }
+    .header .spanB {
+        top: 58%;
+        left: 72%;
+        border-radius: 5px;
+        width: 25%;
+        box-shadow: 0 0 4px 1px black inset;
+        padding: 5px;
+        border: 1px solid;
+        background-color: #0095ff;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        font-size: 27px;
+        color: #ff0000;
+        z-index: 2;
+        position: absolute;
+    }
+    .header .spanC {
+        left: 4%;
+        background-color: #0072ff;
+        width: 65%;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 0 4px 1px black inset;
+        padding: 5px;
+        border: 1px solid;
+        top: 58%;
+        font-size: 27px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+    }
+    
+    .header .spanC .rong {
+    color: #cd0000;
+    font-size: 27px;
+    }
+    .cards {
+        z-index: 3;
+        display: flex;
+        border: 2px solid black;
+        width: 100%;
+        height: 80%;
+        background-color: #351eb6;
+        padding: 5% 1% 7% 2%;
+        box-shadow: 0 0 11px 1px #000000;
+    }
+    .cards .block {
+        flex-basis: 78px;
+        flex-grow: 0;
+        height: 19%;
+        margin: 0px 6px 0 2px;
+        overflow: hidden;
+        box-shadow: 0px 0px 11px 2px black;
+        padding: 0px;
+    }
+    .cards .block div {
+        position: absolute;
+        cursor: pointer;
+        transform-style: preserve-3d;
+        width: 100%;
+        border: 1.4px solid #ffc100;
+        height: 100%;
+        transition: all .6s;
+        -webkit-transition: all .6s;
+        -moz-transition: all .6s;
+        -ms-transition: all .6s;
+        -o-transition: all .6s;
+    }
+    .cards .block div.rotate {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+    }
+    .cards .block div.matched {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+        pointer-events: none;
+    }
+    .cards .block div .face {
+        width: 100%;
+        height: 100%;
+        color: #fffc00;
+        background-color: #2700ff;
+    }
+    .cards .block div .back {
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-color: #de0000;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+    }
+    
+    .cards .block div .back img {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+}
+@media (min-width: 390px) {
+    .starting2 {
+        width: 393px;
+        height: 851px;
+    }
+    .starting2 div {
+        width: 91%;
+        height: 32%;
+        left: 50%;
+    }
+    
+    
+    .starting2 div button {
+        position: relative;
+        font-weight: bold;
+        width: 56%;
+        left: 2%;
+        background-color: orange;
+        box-shadow: 0px 0px 3px 1px black;
+        height: 14%;
+        font-size: 15px;
+        line-height: 2px;
+        top: 27%;
+        cursor: pointer;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+    
+    .starting2 div h4 {
+        top: 22%;
+        left: 11%;
+        font-size: 17px;
+    }
+    
+    .starting2 div h2 {
+        top: 17%;
+        font-size: 37px;
+    }
+    
+    
+    label.mainLabel {
+        z-index: 5;
+        top: 35px;
+        font-size: 26px;
+        left: 124px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        color: #00ff25;
+    }
+    
+    
+    .starting {
+        width: 394px;
+        height: 851px;
+    }
+    
+    .starting div {
+        width: 91%;
+        height: 32%;
+        left: 50%;
+    }
+    
+    .starting div label {
+        top: 63%;
+        font-size: 17px;
+    }
+    
+    .starting div label.up {
+        top: -685px;
+        font-size: 27px;
+        left: 102px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        color: #00ff25;
+    }
+    
+    .starting div h2 {
+        top: 17%;
+        font-size: 37px;
+    }
+    
+    .starting div h4 {
+        top: 23%;
+        left: 0%;
+        font-size: 18px;
+    }
+    
+    .starting div button {
+        top: 89px;
+    }
+    .container {
+        padding: 0 0% 0 0%;
+        width: 394px;
+        height: 851px;
+    }
+    .header {
+        width: 100%;
+        height: 22%;
+        padding: 19px;
+        background-color: #2700ff;
+        font-size: 17px;
+        border: 4px solid black;
+        text-shadow: -1px -1px black;
+        font-weight: 550;
+        overflow: visible;
+        box-shadow: 2px 2px 10px 0 black;
+        position: relative;
+    }
+    .header .spanA {
+        font-size: 26px;
+        padding: 3%;
+        border-radius: 5px;
+        background-color: #9100ff;
+        width: 93%;
+        box-shadow: 0 0 4px 1px black inset;
+        border: 1px solid;
+        left: 14px;
+        top: 11%;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+    }
+    
+    .header .spanA span {
+        color: red;
+    }
+    .header .spanB {
+        top: 58%;
+        left: 72%;
+        border-radius: 5px;
+        width: 25%;
+        box-shadow: 0 0 4px 1px black inset;
+        padding: 5px;
+        border: 1px solid;
+        background-color: #0095ff;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        font-size: 27px;
+        color: #ff0000;
+        z-index: 2;
+        position: absolute;
+    }
+    .header .spanC {
+        left: 4%;
+        background-color: #0072ff;
+        width: 65%;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 0 4px 1px black inset;
+        padding: 5px;
+        border: 1px solid;
+        top: 58%;
+        font-size: 27px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+    }
+    
+    .header .spanC .rong {
+    color: #cd0000;
+    font-size: 16px;
+    }
+    .cards {
+        z-index: 3;
+        display: flex;
+        border: 2px solid black;
+        width: 100%;
+        height: 80%;
+        background-color: #351eb6;
+        padding: 13% 1% 18% 3%;
+        box-shadow: 0 0 11px 1px #000000;
+    }
+    .cards .block {
+        flex-basis: 78px;
+        flex-grow: 0;
+        height: 19%;
+        margin: 0px 6px 0 2px;
+        overflow: hidden;
+        box-shadow: 0px 0px 11px 2px black;
+        padding: 0px;
+    }
+    .cards .block div {
+        position: absolute;
+        cursor: pointer;
+        transform-style: preserve-3d;
+        width: 100%;
+        border: 1.4px solid #ffc100;
+        height: 100%;
+        transition: all .6s;
+        -webkit-transition: all .6s;
+        -moz-transition: all .6s;
+        -ms-transition: all .6s;
+        -o-transition: all .6s;
+    }
+    .cards .block div.rotate {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+    }
+    .cards .block div.matched {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+        pointer-events: none;
+    }
+    .cards .block div .face {
+        width: 100%;
+        line-height: 99px;
+        height: 100%;
+        color: #fffc00;
+        background-color: #2700ff;
+    }
+    .cards .block div .back {
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-color: #de0000;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+    }
+    
+    .cards .block div .back img {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+}
+@media (min-width: 412px) {
+    .starting2 {
+        width: 412px;
+        height: 915px;
+    }
+    .starting2 div {
+        width: 91%;
+        height: 32%;
+        left: 50%;
+    }
+    
+    
+    .starting2 div button {
+        position: relative;
+        font-weight: bold;
+        width: 56%;
+        left: 2%;
+        background-color: orange;
+        box-shadow: 0px 0px 3px 1px black;
+        height: 14%;
+        font-size: 18px;
+        line-height: 2px;
+        top: 32%;
+        cursor: pointer;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+    
+    .starting2 div h4 {
+        top: 25%;
+        left: 11%;
+        font-size: 20px;
+    }
+    
+    .starting2 div h2 {
+        top: 17%;
+        font-size: 42px;
+    }
+    
+    
+    label.mainLabel {
+        z-index: 5;
+        top: 40px;
+        font-size: 26px;
+        left: 124px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        color: #00ff25;
+    }
+    
+    
+    .starting {
+        width: 414px;
+        height: 915px;
+    }
+    
+    .starting div {
+        width: 91%;
+        height: 32%;
+        left: 50%;
+    }
+    
+    .starting div label {
+        top: 62%;
+        font-size: 18px;
+    }
+    
+    .starting div label.up {
+        top: -732px;
+        font-size: 26px;
+        left: 102px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        color: #00ff25;
+    }
+    
+    .starting div h2 {
+        top: 19%;
+        font-size: 37px;
+    }
+    
+    .starting div h4 {
+        top: 26%;
+        left: 0%;
+        font-size: 20px;
+    }
+    
+    .starting div button {
+        top: 98px;
+    }
+    .container {
+        padding: 0 0% 0 0%;
+        width: 415px;
+        height: 918px;
+    }
+    .header {
+        width: 100%;
+        height: 22%;
+        padding: 19px;
+        background-color: #2700ff;
+        font-size: 23px;
+        border: 4px solid black;
+        text-shadow: -1px -1px black;
+        font-weight: 550;
+        overflow: visible;
+        box-shadow: 2px 2px 10px 0 black;
+        position: relative;
+    }
+    .header .spanA {
+        font-size: 26px;
+        padding: 3%;
+        border-radius: 5px;
+        background-color: #9100ff;
+        width: 93%;
+        box-shadow: 0 0 4px 1px black inset;
+        border: 1px solid;
+        left: 14px;
+        top: 11%;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+    }
+    
+    .header .spanA span {
+        color: red;
+    }
+    .header .spanB {
+        top: 58%;
+        left: 72%;
+        border-radius: 5px;
+        width: 25%;
+        box-shadow: 0 0 4px 1px black inset;
+        padding: 5px;
+        border: 1px solid;
+        background-color: #0095ff;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        font-size: 27px;
+        color: #ff0000;
+        z-index: 2;
+        position: absolute;
+    }
+    .header .spanC {
+        left: 4%;
+        background-color: #0072ff;
+        width: 65%;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 0 4px 1px black inset;
+        padding: 5px;
+        border: 1px solid;
+        top: 58%;
+        font-size: 27px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+    }
+    
+    .header .spanC .rong {
+    color: #cd0000;
+    font-size: 26px;
+    }
+    .cards {
+        z-index: 3;
+        display: flex;
+        border: 2px solid black;
+        width: 100%;
+        height: 81%;
+        background-color: #351eb6;
+        padding: 14% 0% 18% 0%;
+        box-shadow: 0 0 11px 1px #000000;
+    }
+    .cards .block {
+        flex-basis: 89px;
+        flex-grow: 0;
+        height: 19%;
+        margin: 0px 6px 0 2px;
+        overflow: hidden;
+        box-shadow: 0px 0px 11px 2px black;
+        padding: 0px;
+    }
+    .cards .block div {
+        position: absolute;
+        cursor: pointer;
+        transform-style: preserve-3d;
+        width: 100%;
+        border: 1.4px solid #ffc100;
+        height: 100%;
+        transition: all .6s;
+        -webkit-transition: all .6s;
+        -moz-transition: all .6s;
+        -ms-transition: all .6s;
+        -o-transition: all .6s;
+    }
+    .cards .block div.rotate {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+    }
+    .cards .block div.matched {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+        pointer-events: none;
+    }
+    .cards .block div .face {
+        width: 100%;
+        line-height: 105px;
+        height: 100%;
+        color: #fffc00;
+        background-color: #2700ff;
+    }
+    .cards .block div .back {
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-color: #de0000;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+    }
+    
+    .cards .block div .back img {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+}
+@media (min-width: 768px)  {
+    .starting2 {
+        width: 412px;
+        height: 915px;
+        width: 771px;
+        height: 1025px;
+    }
+    .starting2 div {
+        width: 91%;
+        height: 32%;
+        left: 50%;
+    }
+    
+    
+    .starting2 div button {
+        position: relative;
+        font-weight: bold;
+        width: 56%;
+        left: 2%;
+        background-color: #3bff23;
+        box-shadow: 0px 0px 3px 1px black;
+        height: 19%;
+        font-size: 33px;
+        line-height: 0px;
+        top: 26%;
+        cursor: pointer;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+    
+    .starting2 div h4 {
+        top: 20%;
+        left: 11%;
+        font-size: 40px;
+    }
+    
+    .starting2 div h2 {
+        top: 14%;
+        font-size: 63px;
+    }
+    
+    
+    label.mainLabel {
+        z-index: 5;
+        top: 52px;
+        font-size: 34px;
+        left: 177px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        color: #00ff25;
+    }
+    
+    
+    .starting {
+        width: 771px;
+        height: 1025px;
+    }
+    
+    .starting div {
+        width: 91%;
+        height: 32%;
+        left: 50%;
+    }
+    
+    .starting div label {
+        top: 70%;
+        left: 70px;
+        font-size: 36px;
+    }
+    
+    .starting div label.up {
+        top: -811px;
+        font-size: 35px;
+        left: 138px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        color: #00ff25;
+    }
+    
+    .starting div input {
+        height: 17%;
+        top: 27%;
+        font-size: 36px;
+        left: -9px;
+    }
+
+    .starting div h2 {
+        top: 14%;
+        font-size: 73px;
+    }
+    
+    .starting div h4 {
+        top: 18%;
+        left: 0%;
+        font-size: 37px;
+    }
+    
+    .starting div button {
+        top: 69px;
+        height: 57px;
+        left: 20px;
+        font-size: 19px;
+    }
+    .container {
+        padding: 0 0% 0 0%;
+        width: 771px;
+        height: 1028px;
+    }
+    .header {
+        width: 100%;
+        height: 22%;
+        padding: 19px;
+        background-color: #2700ff;
+        font-size: 23px;
+        border: 4px solid black;
+        text-shadow: -1px -1px black;
+        font-weight: 550;
+        overflow: visible;
+        box-shadow: 2px 2px 10px 0 black;
+        position: relative;
+    }
+    .header .spanA {
+        font-size: 34px;
+        padding: 3%;
+        border-radius: 5px;
+        background-color: #9100ff;
+        width: 93%;
+        box-shadow: 0 0 4px 1px black inset;
+        border: 1px solid;
+        left: 28px;
+        top: 11%;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+    }
+    
+    .header .spanA span {
+        color: red;
+    }
+    .header .spanB {
+        top: 58%;
+        left: 72%;
+        height: 71px;
+        border-radius: 5px;
+        width: 25%;
+        box-shadow: 0 0 4px 1px black inset;
+        padding: 5px;
+        border: 1px solid;
+        text-align: center;
+        background-color: #0095ff;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        font-size: 42px;
+        color: #ff0000;
+        z-index: 2;
+        position: absolute;
+    }
+    .header .spanC {
+        left: 4%;
+        background-color: #0072ff;
+        width: 65%;
+        height: 71px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 0 4px 1px black inset;
+        padding: 5px;
+        border: 1px solid;
+        top: 58%;
+        font-size: 42px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+    }
+    
+    .header .spanC .rong {
+    color: #cd0000;
+    font-size: 42px;
+    }
+    .cards {
+        z-index: 3;
+        display: flex;
+        border: 2px solid black;
+        width: 100%;
+        height: 80%;
+        background-color: #351eb6;
+        padding: 4% 0% 6% 0%;
+        box-shadow: 0 0 11px 1px #000000;
+    }
+    .cards .block {
+        flex-basis: 170px;
+        flex-grow: 0;
+        height: 23%;
+        margin: 0px 10px 0 2px;
+        overflow: hidden;
+        box-shadow: 0px 0px 11px 2px black;
+        padding: 0px;
+    }
+    .cards .block div {
+        position: absolute;
+        cursor: pointer;
+        transform-style: preserve-3d;
+        width: 100%;
+        border: 1.4px solid #ffc100;
+        height: 100%;
+        transition: all .6s;
+        -webkit-transition: all .6s;
+        -moz-transition: all .6s;
+        -ms-transition: all .6s;
+        -o-transition: all .6s;
+    }
+    .cards .block div.rotate {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+    }
+    .cards .block div.matched {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+        pointer-events: none;
+    }
+    .cards .block div .face {
+        width: 100%;
+        font-size: 80px;
+        line-height: 151px;
+        height: 100%;
+        color: #fffc00;
+        background-color: #2700ff;
+    }
+    .cards .block div .back {
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-color: #de0000;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+    }
+    
+    .cards .block div .back img {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+}
+@media (min-width: 820px) {
+    body {
+        background-color: orange;
+    }
+    .starting2 {
+        width: 412px;
+        height: 915px;
+        width: 771px;
+        top: 6%;
+        left: 3%;
+        height: 1025px;
+    }
+    .starting2 div {
+        width: 91%;
+        height: 32%;
+        left: 50%;
+    }
+    
+    
+    .starting2 div button {
+        position: relative;
+        font-weight: bold;
+        width: 56%;
+        left: 2%;
+        background-color: #3bff23;
+        box-shadow: 0px 0px 3px 1px black;
+        height: 19%;
+        font-size: 33px;
+        line-height: 0px;
+        top: 26%;
+        cursor: pointer;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+    
+    .starting2 div h4 {
+        top: 19%;
+        left: 11%;
+        font-size: 40px;
+    }
+    
+    .starting2 div h2 {
+        top: 12%;
+        font-size: 63px;
+    }
+    
+    
+    label.mainLabel {
+        z-index: 5;
+        top: 124px;
+        font-size: 34px;
+        left: 201px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        color: #00ff25;
+    }
+    
+    
+    .starting {
+        top: 6%;
+        left: 3%;
+        width: 771px;
+        height: 1025px;
+    }
+    
+    .starting div {
+        width: 91%;
+        height: 32%;
+        left: 50%;
+    }
+    
+    .starting div label {
+        top: 69%;
+        left: 67px;
+        font-size: 36px;
+    }
+    
+    .starting div label.up {
+        top: -812px;
+        font-size: 35px;
+        left: 137px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        color: #00ff25;
+    }
+    
+    .starting div input {
+        height: 16%;
+        top: 28%;
+        font-size: 36px;
+        left: -9px;
+    }
+
+    .starting div h2 {
+        top: 14%;
+        font-size: 73px;
+    }
+    
+    .starting div h4 {
+        top: 18%;
+        left: 0%;
+        font-size: 37px;
+    }
+    
+    .starting div button {
+        top: 73px;
+        height: 52px;
+        left: 20px;
+        font-size: 19px;
+    }
+    
+    .container {
+        padding: 0 0% 0 0%;
+        width: 771px;
+        height: 1028px;
+        top: 6%;
+        position: absolute;
+        left: 3%;
+    }
+    .header {
+        width: 100%;
+        height: 22%;
+        padding: 19px;
+        background-color: #2700ff;
+        font-size: 23px;
+        border: 4px solid black;
+        text-shadow: -1px -1px black;
+        font-weight: 550;
+        overflow: visible;
+        box-shadow: 2px 2px 10px 0 black;
+        position: relative;
+    }
+    .header .spanA {
+        font-size: 34px;
+        padding: 3%;
+        border-radius: 5px;
+        background-color: #9100ff;
+        width: 93%;
+        box-shadow: 0 0 4px 1px black inset;
+        border: 1px solid;
+        left: 28px;
+        top: 11%;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+    }
+    
+    .header .spanA span {
+        color: red;
+    }
+    .header .spanB {
+        top: 58%;
+        left: 72%;
+        height: 71px;
+        border-radius: 5px;
+        width: 25%;
+        box-shadow: 0 0 4px 1px black inset;
+        padding: 5px;
+        border: 1px solid;
+        text-align: center;
+        background-color: #0095ff;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+        font-size: 42px;
+        color: #ff0000;
+        z-index: 2;
+        position: absolute;
+    }
+    .header .spanC {
+        left: 4%;
+        background-color: #0072ff;
+        width: 65%;
+        height: 71px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 0 4px 1px black inset;
+        padding: 5px;
+        border: 1px solid;
+        top: 58%;
+        font-size: 42px;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+    }
+    
+    .header .spanC .rong {
+    color: #cd0000;
+    font-size: 42px;
+    }
+    .cards {
+        z-index: 3;
+        display: flex;
+        border: 2px solid black;
+        width: 100%;
+        height: 80%;
+        background-color: #351eb6;
+        padding: 4% 0% 6% 0%;
+        box-shadow: 0 0 11px 1px #000000;
+    }
+    .cards .block {
+        flex-basis: 170px;
+        flex-grow: 0;
+        height: 23%;
+        margin: 0px 10px 0 2px;
+        overflow: hidden;
+        box-shadow: 0px 0px 11px 2px black;
+        padding: 0px;
+    }
+    .cards .block div {
+        position: absolute;
+        cursor: pointer;
+        transform-style: preserve-3d;
+        width: 100%;
+        border: 1.4px solid #ffc100;
+        height: 100%;
+        transition: all .6s;
+        -webkit-transition: all .6s;
+        -moz-transition: all .6s;
+        -ms-transition: all .6s;
+        -o-transition: all .6s;
+    }
+    .cards .block div.rotate {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+    }
+    .cards .block div.matched {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+        pointer-events: none;
+    }
+    .cards .block div .face {
+        width: 100%;
+        font-size: 80px;
+        line-height: 151px;
+        height: 100%;
+        color: #fffc00;
+        background-color: #2700ff;
+    }
+    .cards .block div .back {
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-color: #de0000;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+    }
+    
+    .cards .block div .back img {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+}
+@media (min-width:924px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        outline: none;
+        font-family: Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
+    }
+    body {
+        background-color: rgb(171, 169, 169);
+    }
+    .starting2 {
+        width: 100%;
+        height: 485.5px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #000000d6;
+        z-index: 5;
+        transition:all .4s;
+        -webkit-transition:all .4s;
+        -moz-transition:all .4s;
+        -ms-transition:all .4s;
+        -o-transition:all .4s;
+    }
+    .starting2 div {
+        position: absolute;
+        width: 26%;
+        height: 41%;
+        top: 54%;
+        left: 52%;
+        border-radius: 4px;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        border: 3px solid #cd6c05;
+        box-shadow: 0 0 11px 2px black;
+        background-color: #2918bb;
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+    }
+    
+    
+    .starting2 div button {
+        position: relative;
+        font-weight: bold;
+        width: 56%;
+        left: 2%;
+        background-color: orange;
+        box-shadow: 0px 0px 3px 1px black;
+        height: 14%;
+        font-size: 12px;
+        line-height: 2px;
+        top: 27%;
+        cursor: pointer;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+    
+    .slowDown {
+        top:54%;
+    }
+    .slowUp {
+        top:50%;
+    }
+    
+    .starting2 div h4 {
+        position: relative;
+        background-color: #ffb000fa;
+        padding: 7px;
+        border-radius: 4px;
+        box-shadow: 3px 3px 4px 0px #000000 inset, -3px -3px 3px 0 #000000 inset;
+        width: 80%;
+        top: 23%;
+        left: 11%;
+        font-size: 14px;
+        color: #b20bff;
+        text-shadow: -1px -1px black;
+    }
+    
+    .starting2 div h2 {
+        position: relative;
+        background-color: #0dffd3;
+        padding: 3px;
+        border-radius: 4px;
+        box-shadow: 3px 3px 4px 0px #000000 inset, -3px -3px 3px 0 #000000 inset;
+        top: 18%;
+        width: 80%;
+        font-size: 28px;
+        height: 24%;
+        padding: 2%;
+        left: 11%;
+        color: #de0000;
+        text-shadow: -2px -2px black;
+    }
+    
+    
+    label.mainLabel {
+        position: absolute;
+        top: 10px;
+        left: 296px;
+        font-size: 16px;
+        color: #80ff00;
+        font-weight: bold;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+        z-index: 5;
+    }
+    
+    
+    .starting {
+        width: 100%;
+        height: 485.5px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #141313d6;
+        z-index: 3;
+        transition:all .4s;
+        -webkit-transition:all .4s;
+        -moz-transition:all .4s;
+        -ms-transition:all .4s;
+        -o-transition:all .4s;
+    }
+    
+    .starting div {
+        position: absolute;
+        width: 26%;
+        border: 3px solid black;
+        height: 41%;
+        top: 100%;
+        left: 52%;
+        border-radius: 4px;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        box-shadow: 0 0 11px 2px black;
+        background-color: #6e0a00;
+    }
+    
+    .starting div input {
+        height: 14%;
+        top: 32%;
+        font-size: 19px;
+        left: -9px;
+    }
+
+    .starting div label {
+        top: 67%;
+        font-weight: bold;
+        color: grey;
+        font-size: 16px;
+        z-index: 4;
+        left: 8%;
+        position: absolute;
+        transition: all .6s;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: text;
+    }
+    
+    .Slowhide {
+        opacity: 0;
+    }
+    .hide {
+        display: none;
+    }
+    
+    .starting div label.up {
+        top: -377px;
+        font-size: 16px;
+        text-shadow: -2px -2px black;
+        left: -41%;
+        color: #00ff25;
+    }
+    
+    .starting div h2 {
+        position: relative;
+        top: 17%;
+        font-size: 40px;
+        left: 0%;
+        color: #00ff6b;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+    }
+    
+    .starting div h4 {
+        position: relative;
+        top: 22%;
+        left: 0%;
+        font-size: 14px;
+        color: #ff9e00;
+        text-shadow: -3px -2px black, 1px -2px black, -2px -1px black, -2px 2px black;
+    } 
+    .starting input {
+        position: relative;
+        width: 67%;
+        height: 14%;
+        padding: 3px 3px 3px 7px;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        top: 33%;
+        box-shadow: 0 0 4px 1px black;
+        left: 0%;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+}
+    
+    .starting input:focus {
+        outline: 1px solid orange;
+    }
+    .starting div button {
+        position: relative;
+        font-weight: bold;
+        width: 19%;
+        background-color: orange;
+        box-shadow: 0px 0px 3px 1px black;
+        height: 15%;
+        font-size: 8px;
+        top: 55px;
+        left: 0%;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    .container {
+        background-color: #cea42d;
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: 485.5px;
+        position: relative;
+        padding: 0 6% 0 21%;
+        /* text-align: center; */
+    }
+    .header {
+        width: 80%;
+        position: relative;
+        border: 1px solid;
+        height: 10%;
+        color: orange;
+        background-color: #514e76;
+        padding: 14px 5px 0 0;
+        font-size: 17px;
+        overflow-x: hidden;
+        text-shadow: -1px -1px black;
+        box-shadow: 0px 0px 5px 2px black;
+        font-weight: 550;
+    }
+    .header .spanA {
+        padding: 0;
+        box-shadow: none;
+        height: auto;
+        width: auto;
+        border: none;
+        background-color: inherit;
+        font-size: 16px;
+        left: 17px;
+        top: 9px;
+        position: absolute;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+    }
+    
+    .header .spanA span {
+        color: red;
+    }
+    .header .spanB {
+        padding: 0;
+        box-shadow: none;
+        height: auto;
+        width: auto;
+        border: none;
+        background-color: inherit;
+        position: absolute;
+        left: 274px;
+        top: 4px;
+        text-shadow: -4px -1px black, -1px 2px black;
+        font-size: 25px;
+        color: #cea42d;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+    }
+    .header .spanC {
+        left: 84%;
+        top: -2px;
+        position: absolute;
+        text-shadow: -1px -1px black;
+        padding: 0;
+        box-shadow: none;
+        height: auto;
+        width: auto;
+        border: none;
+        background-color: inherit;
+        font-size: 16px;
+        top: 9px;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+    }
+    
+    .header .spanC .rong {
+        color: red;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+        font-size: 16px;
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        background-color: #918d9a;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 90%;
+        padding: 2% 5% 2% 5%;
+        box-shadow: 0 0 11px 1px #000000;
+    }
+    .cards .block {
+        position: relative;
+        border: none;
+        margin-right: 3px;
+        padding: 22px;
+        flex-basis: 88px;
+        flex-grow: 0;
+        height: 23%;
+        margin: 0 7px 0 0;
+        overflow: hidden;
+        box-shadow: 0px 0px 11px 2px black;
+        padding: 0px;
+    }
+    .cards .block div {
+        position: absolute;
+        cursor: pointer;
+        transform-style: preserve-3d;
+        width: 100%;
+        border: 1.4px solid #ffc100;
+        height: 100%;
+        transition: all .6s;
+        -webkit-transition: all .6s;
+        -moz-transition: all .6s;
+        -ms-transition: all .6s;
+        -o-transition: all .6s;
+    }
+    .cards .block div.rotate {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+    }
+    .cards .block div.matched {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+        pointer-events: none;
+    }
+    .cards .block div .face {
+        width: 100%;
+        height: 100%;
+        color: white;
+        line-height: 85px;
+        text-align: center;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transition: 0s;
+        font-size: 49px;
+        background-color: #6e00ff;
+    }
+    .cards .block div .back {
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-color: #de0000;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+    }
+    
+    .cards .block div .back img {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+}
+@media (min-width:1024px) and (min-height:453px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        outline: none;
+        font-family: Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
+    }
+    body {
+        background-color: rgb(171, 169, 169);
+    }
+    .starting2 {
+        width: 100%;
+        height: 453px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #000000d6;
+        z-index: 5;
+        transition:all .4s;
+        -webkit-transition:all .4s;
+        -moz-transition:all .4s;
+        -ms-transition:all .4s;
+        -o-transition:all .4s;
+    }
+    .starting2 div {
+        position: absolute;
+        width: 26%;
+        height: 41%;
+        top: 54%;
+        left: 52%;
+        border-radius: 4px;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        border: 3px solid #cd6c05;
+        box-shadow: 0 0 11px 2px black;
+        background-color: #2918bb;
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+    }
+    
+    
+    .starting2 div button {
+        position: relative;
+        font-weight: bold;
+        width: 56%;
+        left: 2%;
+        background-color: orange;
+        box-shadow: 0px 0px 3px 1px black;
+        height: 14%;
+        font-size: 12px;
+        line-height: 2px;
+        top: 27%;
+        cursor: pointer;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+    
+    .slowDown {
+        top:54%;
+    }
+    .slowUp {
+        top:50%;
+    }
+    
+    .starting2 div h4 {
+        position: relative;
+        background-color: #ffb000fa;
+        padding: 7px;
+        border-radius: 4px;
+        box-shadow: 3px 3px 4px 0px #000000 inset, -3px -3px 3px 0 #000000 inset;
+        width: 80%;
+        top: 23%;
+        left: 11%;
+        font-size: 14px;
+        color: #b20bff;
+        text-shadow: -1px -1px black;
+    }
+    
+    .starting2 div h2 {
+        position: relative;
+        background-color: #0dffd3;
+        padding: 3px;
+        border-radius: 4px;
+        box-shadow: 3px 3px 4px 0px #000000 inset, -3px -3px 3px 0 #000000 inset;
+        top: 18%;
+        width: 80%;
+        font-size: 28px;
+        height: 24%;
+        padding: 2%;
+        left: 11%;
+        color: #de0000;
+        text-shadow: -2px -2px black;
+    }
+    
+    
+    label.mainLabel {
+        position: absolute;
+        top: 10px;
+        left: 296px;
+        font-size: 16px;
+        color: #80ff00;
+        font-weight: bold;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+        z-index: 5;
+    }
+    
+    
+    .starting {
+        width: 100%;
+        height: 453px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #141313d6;
+        z-index: 3;
+        transition:all .4s;
+        -webkit-transition:all .4s;
+        -moz-transition:all .4s;
+        -ms-transition:all .4s;
+        -o-transition:all .4s;
+    }
+    
+    .starting div {
+        position: absolute;
+        width: 26%;
+        border: 3px solid black;
+        height: 41%;
+        top: 100%;
+        left: 52%;
+        border-radius: 4px;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        box-shadow: 0 0 11px 2px black;
+        background-color: #6e0a00;
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+}
+.starting div input {
+    height: 14%;
+    top: 32%;
+    font-size: 14px;
+    left: -9px;
+}
+    .starting div label {
+        top: 72%;
+        font-weight: bold;
+        color: grey;
+        font-size: 14px;
+        z-index: 4;
+        left: 7%;
+        position: absolute;
+        transition: all .6s;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: text;
+    }
+    
+    .Slowhide {
+        opacity: 0;
+    }
+    .hide {
+        display: none;
+    }
+    
+    .starting div label.up {
+        top: -351px;
+        font-size: 16px;
+        text-shadow: -2px -2px black;
+        left: -41%;
+        color: #00ff25;
+    }
+    
+    .starting div h2 {
+        position: relative;
+        top: 17%;
+        font-size: 40px;
+        left: 0%;
+        color: #00ff6b;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+    }
+    
+    .starting div h4 {
+        position: relative;
+        top: 22%;
+        left: 0%;
+        font-size: 14px;
+        color: #ff9e00;
+        text-shadow: -3px -2px black, 1px -2px black, -2px -1px black, -2px 2px black;
+    } 
+    .starting input {
+        position: relative;
+        width: 67%;
+        height: 14%;
+        padding: 3px 3px 3px 7px;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        top: 33%;
+        box-shadow: 0 0 4px 1px black;
+        left: 0%;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+}
+    
+    .starting input:focus {
+        outline: 1px solid orange;
+    }
+    .starting div button {
+        position: relative;
+        font-weight: bold;
+        width: 19%;
+        background-color: orange;
+        box-shadow: 0px 0px 3px 1px black;
+        height: 15%;
+        font-size: 8px;
+        top: 51px;
+        left: 0%;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    .container {
+        background-color: #cea42d;
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: 453px;
+        position: relative;
+        padding: 0 6% 0 21%;
+        /* text-align: center; */
+    }
+    .header {
+        width: 80%;
+        position: relative;
+        border: 1px solid;
+        height: 10%;
+        color: orange;
+        background-color: #514e76;
+        padding: 11px;
+        font-size: 17px;
+        overflow-x: hidden;
+        text-shadow: -1px -1px black;
+        box-shadow: 0px 0px 5px 2px black;
+        font-weight: 550;
+    }
+    .header .spanA {
+        padding: 0;
+        box-shadow: none;
+        height: auto;
+        width: auto;
+        border: none;
+        background-color: inherit;
+        font-size: 16px;
+        left: 17px;
+        top: 9px;
+        position: absolute;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+    }
+    
+    .header .spanA span {
+        color: red;
+    }
+    .header .spanB {
+        padding: 0;
+        box-shadow: none;
+        height: auto;
+        width: auto;
+        border: none;
+        background-color: inherit;
+        position: absolute;
+        left: 274px;
+        top: 4px;
+        text-shadow: -4px -1px black, -1px 2px black;
+        font-size: 25px;
+        color: #cea42d;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+    }
+    .header .spanC {
+        left: 86%;
+        top: -2px;
+        position: absolute;
+        text-shadow: -1px -1px black;
+        padding: 0;
+        box-shadow: none;
+        height: auto;
+        width: auto;
+        border: none;
+        background-color: inherit;
+        font-size: 16px;
+        top: 9px;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+    }
+    
+    .header .spanC .rong {
+        color: red;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+        font-size: 16px;
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        background-color: #918d9a;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 90%;
+        padding: 2% 9% 1% 15%;
+        box-shadow: 0 0 11px 1px #000000;
+    }
+    .cards .block {
+        position: relative;
+        border: none;
+        margin-right: 3px;
+        padding: 22px;
+        flex-basis: 88px;
+        flex-grow: 0;
+        height: 23%;
+        margin: 0 7px 0 0;
+        overflow: hidden;
+        box-shadow: 0px 0px 11px 2px black;
+        padding: 0px;
+    }
+    .cards .block div {
+        position: absolute;
+        cursor: pointer;
+        transform-style: preserve-3d;
+        width: 100%;
+        border: 1.4px solid #ffc100;
+        height: 100%;
+        transition: all .6s;
+        -webkit-transition: all .6s;
+        -moz-transition: all .6s;
+        -ms-transition: all .6s;
+        -o-transition: all .6s;
+    }
+    .cards .block div.rotate {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+    }
+    .cards .block div.matched {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+        pointer-events: none;
+    }
+    .cards .block div .face {
+        width: 100%;
+        height: 100%;
+        color: white;
+        line-height: 85px;
+        text-align: center;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transition: 0s;
+        font-size: 49px;
+        background-color: #6e00ff;
+    }
+    .cards .block div .back {
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-color: #de0000;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+    }
+    
+    .cards .block div .back img {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+}
+@media (min-width: 1024px) and (min-height:600px) {
+    .starting2 {
+        top: 0;
+        width: 1027px;
+        height: 602px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #000000d6;
+        z-index: 5;
+        transition:all .4s;
+        -webkit-transition:all .4s;
+        -moz-transition:all .4s;
+        -ms-transition:all .4s;
+        -o-transition:all .4s;
+    }
+    .starting2 div {
+        position: absolute;
+        width: 45%;
+        height: 41%;
+        top: 54%;
+        left: 52%;
+        border-radius: 4px;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        border: 3px solid #cd6c05;
+        box-shadow: 0 0 11px 2px black;
+        background-color: #2918bb;
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+    }
+    
+    
+    .starting2 div button {
+        position: relative;
+        font-weight: bold;
+        width: 56%;
+        left: 2%;
+        background-color: orange;
+        box-shadow: 0px 0px 3px 1px black;
+        height: 14%;
+        font-size: 18px;
+        line-height: 2px;
+        top: 28%;
+        cursor: pointer;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+    }
+    
+    .slowDown {
+        top:54%;
+    }
+    .starting div.slowUp {
+        top:50%;
+    }
+    
+    .starting2 div h4 {
+        position: relative;
+        background-color: #ffb000fa;
+        padding: 7px;
+        border-radius: 4px;
+        box-shadow: 3px 3px 4px 0px #000000 inset, -3px -3px 3px 0 #000000 inset;
+        width: 80%;
+        top: 23%;
+        left: 11%;
+        font-size: 21px;
+        height: 17%;
+        color: #b20bff;
+        text-shadow: -1px -1px black;
+    }
+    
+    .starting2 div h2 {
+        position: relative;
+        background-color: #0dffd3;
+        padding: 3px;
+        border-radius: 4px;
+        box-shadow: 3px 3px 4px 0px #000000 inset, -3px -3px 3px 0 #000000 inset;
+        top: 18%;
+        width: 80%;
+        font-size: 36px;
+        height: 24%;
+        padding: 2%;
+        left: 11%;
+        color: #de0000;
+        text-shadow: -2px -2px black;
+    }
+    
+    
+    label.mainLabel {
+        position: absolute;
+        top: 21px;
+        left: 333px;
+        font-size: 29px;
+        color: #80ff00;
+        font-weight: bold;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+        z-index: 5;
+    }
+    
+    
+    .starting {
+        width: 1025px;
+        height: 602px;
+        position: absolute;
+        top: 0%;
+        left: 0;
+        background-color: #141313d6;
+        z-index: 3;
+        transition:all .4s;
+        -webkit-transition:all .4s;
+        -moz-transition:all .4s;
+        -ms-transition:all .4s;
+        -o-transition:all .4s;
+    }
+    
+    .starting div {
+        position: absolute;
+        width: 46%;
+        border: 3px solid black;
+        height: 41%;
+        top: 100%;
+        left: 52%;
+        border-radius: 4px;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        box-shadow: 0 0 11px 2px black;
+        background-color: #6e0a00;
+    }
+    
+    .starting div label {
+        top: 73%;
+        font-weight: bold;
+        color: grey;
+        font-size: 27px;
+        z-index: 4;
+        left: 8%;
+        position: absolute;
+        transition: all .6s;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: text;
+    }
+
+    .starting div input {
+        height: 19%;
+        top: 26%;
+        font-size: 36px;
+        left: -9px;
+    }
+    
+    .Slowhide {
+        opacity: 0;
+    }
+    .hide {
+        display: none;
+    }
+    
+    .starting div label.up {
+        top: -459px;
+        font-size: 27px;
+        text-shadow: -2px -2px black;
+        left: 7%;
+        color: #56ed00;
+    }
+    
+    .starting div h2 {
+        position: relative;
+        top: 13%;
+        left: 0%;
+        font-size: 64px;
+        color: #00ff6b;
+        text-shadow: -4px -3px black, 1px -3px black, -2px -2px black, -2px 2px black, 1px 2px black;
+    }
+    
+    .starting div h4 {
+        position: relative;
+        top: 17%;
+        left: 0%;
+        font-size: 25px;
+        color: #ff9e00;
+        text-shadow: -3px -2px black, 1px -2px black, -2px -1px black, -2px 2px black;
+    } 
+    .starting input {
+        position: relative;
+        width: 67%;
+        height: 16%;
+        padding: 3px 3px 3px 7px;
+        border: none;
+        font-size: 27px;
+        font-weight: bold;
+        top: 27%;
+        box-shadow: 0 0 4px 1px black;
+        left: 0%;
+        border-radius: 3px;
+    }
+    
+    .starting input:focus {
+        outline: 1px solid orange;
+    }
+    .starting div button {
+        position: relative;
+        font-weight: bold;
+        width: 20%;
+        background-color: orange;
+        box-shadow: 0px 0px 3px 1px black;
+        height: 19%;
+        font-size: 14px;
+        top: 47px;
+        left: 0%;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    .container {
+        background-color: #cea42d;
+        width: 1025px;
+        height: 602px;
+        top: 0;
+        left: 0;
+        position: relative;
+        padding: 0 6% 0 21%;
+        /* text-align: center; */
+    }
+    .header {
+        width: 80%;
+        position: relative;
+        border: 1px solid;
+        height: 12%;
+        color: orange;
+        background-color: #514e76;
+        padding: 11px;
+        font-size: 17px;
+        overflow-x: hidden;
+        box-shadow: 0px 0px 11px 6px black;
+        font-weight: 550;
+    }
+    .header .spanA {
+        padding: 0;
+        box-shadow: none;
+        height: auto;
+        width: auto;
+        border: none;
+        background-color: inherit;
+        font-size: 27px;
+        left: 17px;
+        top: 20px;
+        position: absolute;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+    }
+    
+    .header .spanA span {
+        color: red;
+    }
+    .header .spanB {
+        padding: 0;
+        box-shadow: none;
+        height: auto;
+        width: auto;
+        border: none;
+        background-color: inherit;
+        position: absolute;
+        left: 257px;
+        top: 13px;
+        font-size: 36px;
+        color: #cea42d;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+    }
+    .header .spanC {
+        left: 77%;
+        position: absolute;
+        padding: 0;
+        box-shadow: none;
+        height: auto;
+        width: auto;
+        border: none;
+        background-color: inherit;
+        font-size: 28px;
+        top: 19px;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+    }
+    
+    .header .spanC .rong {
+        color: red;
+        text-shadow: -2px -2px black, 0px -2px black, 2px 0px black, 2px 2px black, 0px 2px black, -2px 0px black, -2px 0px black, -2px 2px black, 2px -2px black;
+        font-size: 27px;
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        background-color: #918d9a;
+        flex-wrap: wrap;
+        overflow: hidden;
+        height: 90%;
+        padding: 2% 5% 2%;
+        box-shadow: 0 0 11px 5px #000000;
+    }
+    .cards .block {
+        position: relative;
+        border: none;
+        margin-right: 3px;
+        padding: 22px;
+        flex-basis: 108px;
+        flex-grow: 0;
+        height: 23%;
+        margin: 0 7px 0 0;
+        overflow: hidden;
+        box-shadow: 0px 0px 11px 2px black;
+        padding: 0px;
+    }
+    .cards .block div {
+        position: absolute;
+        cursor: pointer;
+        transform-style: preserve-3d;
+        width: 100%;
+        border: 1.4px solid #ffc100;
+        height: 100%;
+        transition: all .6s;
+        -webkit-transition: all .6s;
+        -moz-transition: all .6s;
+        -ms-transition: all .6s;
+        -o-transition: all .6s;
+    }
+    .cards .block div.rotate {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+    }
+    .cards .block div.matched {
+        transform:rotateY(180deg);
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+        pointer-events: none;
+    }
+    .cards .block div .face {
+        width: 100%;
+        height: 100%;
+        color: white;
+        line-height: 106px;
+        text-align: center;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transition: 0s;
+        font-size: 60px;
+        background-color: #6e00ff;
+    }
+    .cards .block div .back {
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-color: #de0000;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+    }
+    
+    .cards .block div .back img {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+}
+@media (min-width: 1280px) {
+    body {
+        background-color: #afa483;
+    }
+    label.mainLabel {
+        top: 98px;
+        left: 40%;
+    }
+    
+    .header .spanB {
+        left: 43%;
+        color: orange;
+    }
+    .cards {
+    height: 87%;
+    }
+    .starting {
+        width: 100%;
+        height: 100%;
+    }
+    .starting div label {
+        top: 63%;
+        left: 9%;
+        font-size: 36px;
+    }
+    .starting div label.up {
+        top: -540px;
+        left: 137px;
+    }
+    .starting div button {
+        top: 26%;
+        height: 17%;
+    }
+    .starting div input {
+        height: 17%;
+        top: 28%;
+        font-size: 36px;
+        left: -9px;
+    }
+    .starting2 div h2 {
+        top: 18%;
+        width: 80%;
+        font-size: 42px;
+        height: 24%;
+        padding: 2%;
+        left: 11%;
+    }
+    .starting2 div h4 {
+        top: 22%;
+        width: 80%;
+        font-size: 33px;
+        height: 21%;
+        padding: 2%;
+        left: 11%;
+    }
+    .container {
+        position:absolute;
+        top:10%;
+        left: 10%;
+        background-color: inherit;
+    }
+    .starting2 {
+        width: 100%;
+        height: 100%;
+    }
+}
